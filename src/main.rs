@@ -27,7 +27,7 @@ use router::Router;
 
 
 // // // // // // // // // // CONSTANTS // // // // // // // // // //
-const STORAGE_PATH: &'static str = "/.db";
+const STORAGE_PATH: &'static str = "~/.db";
 // Define service ID for the service trait.
 
 const SERVICE_ID: u16 = 1;
@@ -423,14 +423,15 @@ fn main() {
         listen_address: peer_address,
         peers: vec![
             //"185.35.221.11:8000".parse().unwrap(),
-            "185.35.221.11:8001".parse().unwrap()
+            "185.35.221.11:8001".parse().unwrap(),
+            "54.252.175.39:8001".parse().unwrap()
         ],
         service_public_key,
         service_secret_key,
         consensus_public_key,
         consensus_secret_key,
         genesis,
-        external_address: Some("185.35.221.11:8000".parse().unwrap()),
+        external_address: None,
         network: Default::default(),
         whitelist: Default::default(),
         api: api_cfg,
