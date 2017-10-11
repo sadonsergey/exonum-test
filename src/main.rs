@@ -27,7 +27,7 @@ use router::Router;
 
 
 // // // // // // // // // // CONSTANTS // // // // // // // // // //
-const STORAGE_PATH: &'static str = "~/.gotocc";
+const STORAGE_PATH: &'static str = "/.db";
 // Define service ID for the service trait.
 
 const SERVICE_ID: u16 = 1;

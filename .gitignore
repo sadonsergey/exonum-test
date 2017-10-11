@@ -3,3 +3,8 @@
 .idea/
 1.log
 cmake-build-debug/
+/Cargo.toml
+/.db
+/.db/*
+.db
+.db/*
