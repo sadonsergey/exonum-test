@@ -1,0 +1,25 @@
+[package]
+name = "cryptocurrency"
+version = "0.1.0"
+authors = ["The Exonum Team <exonum@bitfury.com>"]
+repository = "https://github.com/exonum/cryptocurrency"
+readme = "README.md"
+license = "Apache-2.0"
+
+[dependencies]
+iron = "0.5.1"
+bodyparser = "0.7.0"
+router = "0.5.1"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+exonum = "0.1.0"
+
+[config]
+consensus_public_key = "16ef83ca4b231404daec6d07b24beb84d89c25944285d2e32a2dcf8f0f3eda72"
+consensus_secret_key = "2a751e6595af66f7644bd33cf7710b6226cf8d0de4b3d18bc8fc2d80f19325a716ef83ca4b231404daec6d07b24beb84d89c25944285d2e32a2dcf8f0f3eda72"
+external_address = "127.0.0.1:8000"
+listen_address = "185.35.221.11:8000"
+peers = ["127.0.0.1:8000"]
+service_public_key = "523ead8ea8457de570e165a512dd5d1b6688cb5757c3d744e03d1173f3e3e237"
+service_secret_key = "18544ebbf3ceeeebca847fe6b4e6ce88f83fc92b6b0e24d5466f3cd08aea37bb523ead8ea8457de570e165a512dd5d1b6688cb5757c3d744e03d1173f3e3e237"
